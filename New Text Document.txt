@@ -1,0 +1,32 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ali
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+       //‰ÕÊÂ Ì  ‘ŒÌ’ ﬁ«∆„ «·“«ÊÌÂ »Êœ‰ „À·À
+        System.out.print("please Enter sides: ");
+       Scanner sc1=new Scanner(System.in);
+       int    sideOne, sideTwo,sideTree;
+       sideOne=sc1.nextInt();
+       sideTwo=sc1.nextInt();
+       sideTree=sc1.nextInt();
+       System.out.println("######!WAIT!#####");
+       if ((sideOne*sideOne)+(sideTwo*sideTwo)==(sideTree*sideTree))
+       { System.out.println("Triangle is Right!!");
+       
+       }else{System.out.println("I'm sorry It's not right!!");}
+      
+       
+    }
+    
+}
